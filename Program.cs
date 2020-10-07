@@ -138,7 +138,7 @@ namespace PedidosRestauranteC
                                     Console.Clear();
                                 }
                             }
-                            
+
                         }
 
                         if (plato == 2)
@@ -188,7 +188,7 @@ namespace PedidosRestauranteC
                                     Console.Clear();
                                 }
                             }
-                            
+
                             if (utencilio == 3)
                             {
                                 if (cuchillo <= 0)
@@ -218,7 +218,7 @@ namespace PedidosRestauranteC
                             int utencilio3;
                             utencilio3 = int.Parse(Console.ReadLine());
                             Console.WriteLine("————————————————————");
-                            
+
                             if (cucharaPostre <= 0)
                             {
                                 Console.WriteLine("Ya no quedan Cuchara de Postre disponibles.");
